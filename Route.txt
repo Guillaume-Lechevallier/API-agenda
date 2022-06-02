@@ -1,0 +1,14 @@
+GET domaine.fr/login Se connecter à la base de données
+
+GET domaine.fr/search=(.*) afficher une liste de contact avec l'occurence (.*)
+GET domaine.fr/search=(.*)/filter=(.1*) afficher une liste de contact avec l'occurence (.*) dans la catégorie (.1*)
+GET domaine.fr/searchotheruser=(.*) afficher une liste des autres utilisateurs de la base avec l'occurence (.*)
+
+PUT domaine.fr/modify modifie un contact
+
+POST domaine.fr/modify ajoute un contact
+
+DELETE domaine.fr/delete supprime un contact
+
+POST domaine.fr/signin
+
