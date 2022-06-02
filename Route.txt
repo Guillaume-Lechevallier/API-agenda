@@ -10,5 +10,5 @@ POST domaine.fr/modify ajoute un contact
 
 DELETE domaine.fr/delete supprime un contact
 
-POST domaine.fr/signin
+POST domaine.fr/signin s'inscrire
 
